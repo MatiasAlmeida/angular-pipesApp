@@ -6,7 +6,8 @@ import { FieldsetModule } from 'primeng/fieldset';
 import { MenubarModule } from 'primeng/menubar';
 import { PanelModule } from 'primeng/panel';
 // import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToolbarModule } from 'primeng/toolbar'
+import { ToolbarModule } from 'primeng/toolbar';
+import { TableModule } from 'primeng/table';
 
 @NgModule({
   exports: [
@@ -18,6 +19,7 @@ import { ToolbarModule } from 'primeng/toolbar'
     PanelModule,
     // SplitButtonModule,
     ToolbarModule,
+    TableModule,
   ]
 })
 export class PrimeNgModule { }
